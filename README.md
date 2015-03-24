@@ -1,19 +1,18 @@
-= presigner
+Presigner
+=========
 
-Description goes here.
+CLI allows you to create presigned URLs for S3.
 
-== Contributing to presigner
- 
-* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
-* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.
-* Fork the project.
-* Start a feature/bugfix branch.
-* Commit and push until you are happy with your contribution.
-* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
-* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+## Installation
 
-== Copyright
+    $ bundle install
+    $ rake build
+    $ rake install
 
-Copyright (c) 2015 Sota Yamashita. See LICENSE.txt for
-further details.
+## Usage
 
+    $ presigner url ACCESS_KEY_ID SECRET_ACCESS_KEY DURATION BUCKET KEY
+
+## License
+
+[MIT](http://sotayamashita.mit-license.org/) © [Sota Yamashit](https://github.com/sotayamashita) 
