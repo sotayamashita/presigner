@@ -14,7 +14,7 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://guides.rubygems.org/specification-reference/ for more options
-  gem.name = "presigner"
+  gem.name = "presigner_v2"
   gem.homepage = "http://github.com/sotayamashita/presigner"
   gem.license = "MIT"
   gem.summary = "Create unsigned url for S3"
