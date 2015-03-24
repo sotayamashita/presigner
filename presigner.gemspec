@@ -14,6 +14,7 @@ Gem::Specification.new do |s|
   s.date = "2015-03-24"
   s.description = "Create unsigned url for S3"
   s.email = "sota.yamashita@gmail.com"
+  s.executables = ["presigner"]
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.rdoc"
@@ -26,7 +27,9 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "bin/presigner",
     "lib/presigner.rb",
+    "presigner.gemspec",
     "spec/presigner_spec.rb",
     "spec/spec_helper.rb"
   ]
@@ -44,12 +47,16 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<bundler>, ["~> 1.0"])
       s.add_development_dependency(%q<jeweler>, ["~> 2.0.1"])
       s.add_development_dependency(%q<simplecov>, [">= 0"])
+      s.add_development_dependency(%q<aws-sdk>, ["~> 2"])
+      s.add_development_dependency(%q<thor>, ["~> 0.19.1"])
     else
       s.add_dependency(%q<rspec>, ["~> 2.8.0"])
       s.add_dependency(%q<rdoc>, ["~> 3.12"])
       s.add_dependency(%q<bundler>, ["~> 1.0"])
       s.add_dependency(%q<jeweler>, ["~> 2.0.1"])
       s.add_dependency(%q<simplecov>, [">= 0"])
+      s.add_dependency(%q<aws-sdk>, ["~> 2"])
+      s.add_dependency(%q<thor>, ["~> 0.19.1"])
     end
   else
     s.add_dependency(%q<rspec>, ["~> 2.8.0"])
@@ -57,6 +64,8 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<bundler>, ["~> 1.0"])
     s.add_dependency(%q<jeweler>, ["~> 2.0.1"])
     s.add_dependency(%q<simplecov>, [">= 0"])
+    s.add_dependency(%q<aws-sdk>, ["~> 2"])
+    s.add_dependency(%q<thor>, ["~> 0.19.1"])
   end
 end
 
