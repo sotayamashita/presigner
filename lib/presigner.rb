@@ -14,7 +14,7 @@ module Presigner
         )
 
         signer = Aws::S3::Presigner.new(client: s3)
-        url    = signer.presigned_url(:get_object, bucket: bucket, key: key, expires_in: duration)
+        url    = signer.presigned_url(:get_object, bucket: bucket, key: key)
 
         say url, :green
 
