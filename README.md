@@ -17,7 +17,7 @@ http://docs.aws.amazon.com/sdkforruby/api/Aws/S3.html
 
 ## Usage
 
-    $ presigner url ACCESS_KEY_ID SECRET_ACCESS_KEY DURATION BUCKET KEY
+    $ presigner url ACCESS_KEY_ID SECRET_ACCESS_KEY BUCKET KEY
 
 ## License
 
