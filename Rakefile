@@ -18,7 +18,7 @@ Jeweler::Tasks.new do |gem|
   gem.homepage = "http://github.com/sotayamashita/presigner"
   gem.license = "MIT"
   gem.summary = "Create unsigned url for S3"
-  gem.description = "Create unsigned url for S3"
+  gem.description = "This gem create unsigned url S3 with version 2 of AWS SDK for Ruby. This gem is too small"
   gem.email = "sota.yamashita@gmail.com"
   gem.authors = ["Sota Yamashita"]
   # dependencies defined in Gemfile
