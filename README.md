@@ -15,4 +15,4 @@ CLI allows you to create presigned URLs for S3.
 
 ## License
 
-[MIT](http://sotayamashita.mit-license.org/) © [Sota Yamashit](https://github.com/sotayamashita) 
+[MIT](http://sotayamashita.mit-license.org/) © [Sota Yamashita](https://github.com/sotayamashita) 
