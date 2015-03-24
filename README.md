@@ -10,8 +10,11 @@ http://docs.aws.amazon.com/sdkforruby/api/Aws/S3.html
 
 ## Installation
 
+    $ [sudo] gem install presigner-v2
+
+Build and install gem using `gem install`:
+
     $ bundle install
-    $ rake build
     $ rake install
 
 ## Usage
