@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'presigner'
+
+Presigner::CLI.start(ARGV)
