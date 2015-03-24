@@ -3,8 +3,8 @@ Presigner
 
 [![Dependency Status](https://gemnasium.com/sotayamashita/presigner.svg)](https://gemnasium.com/sotayamashita/presigner)
 
-CLI allows you to create presigned URLs for S3. It use version 2 of AWS SDK for Ruby.
-
+CLI allows you to create presigned URLs for S3. It use version 2 of AWS SDK for Ruby. If you would like to know about
+version 2 of AWS SDK for Ruby, please read http://docs.aws.amazon.com/sdkforruby/api/Aws/S3.html
 
 ## Installation
 
