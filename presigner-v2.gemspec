@@ -30,6 +30,7 @@ Gem::Specification.new do |s|
     "VERSION",
     "bin/presigner",
     "lib/presigner.rb",
+    "presigner-v2.gemspec",
     "presigner_v2.gemspec",
     "spec/presigner_spec.rb",
     "spec/spec_helper.rb"
